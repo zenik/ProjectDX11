@@ -1,10 +1,10 @@
-#include "Common.h"
+ï»¿#include "Common.h"
 #include "./App/CApplication.h"
 
 //	Entrypoint
 int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE, LPSTR lpCmdLine, int nShowCmd )
 {
 	Applicatin::cApplication app;
-	app.Run(hInstance);				//	ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ŠJn
+	app.Run(hInstance);				//	ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³é–‹å§‹
 	return 0;
 }
